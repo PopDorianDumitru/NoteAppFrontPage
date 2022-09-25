@@ -10,7 +10,7 @@ const HomePage = () => {
       <div id="title">
         <div id="titleWebsite">Easy Notes!</div>
       </div>
-      <div>
+      <div id="listDiv">
         <ul>
           {listItems.map((sentence, index) => {
             return (
